@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*IMG LOGO*/
+
+.imgLogo {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/*Titolo*/
+
+.title {
+  background-color: #fdfbf1;
+  text-align: center;
+  padding: 12px;
+  margin: 18px 0;
+  border-top: 2px solid gold;
+}
+
+.title p {
+  color: #004d4c;
+}
+
+.title p span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*Contenitore ingredienti*/
+
+.containerIngredients {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.titleIngredients {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/*Container Photo*/
+
+.containerPhoto p {
+  font-weight: 300;
+}
+
+.containerPhoto img {
+  margin: 10px 0;
+  width: 700px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.descriptionPhoto {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+
+/*Ingredienti*/
+
+.ingredients h2 {
+  margin: 40px 0;
+}
+
+.containerList p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.containerList ul li {
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+/*Lista ordinata*/
+
+.method a {
+  color: #338888;
+  font-weight: bold;
+}
+
+/*Featured*/
+
+.featured {
+  border-left: 1px solid orange;
+}
+
+.featured p:first-child {
+  color: orange;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.featured p {
+  color: #338888;
+  margin: 0;
+  margin-left: 8px;
+}
